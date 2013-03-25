@@ -23,5 +23,6 @@
 
 
 @property (readonly, nonatomic) int score;
+@property (nonatomic, getter = isMatchThree) BOOL matchThree;
 
 @end
